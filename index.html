@@ -1,0 +1,154 @@
+<html>
+	<head>
+		<title>Hello! I am Shreyanshi, a coffee-coder.</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" type="images/png" href="images/fav.png">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		<script src="smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+	</head>
+	<body>
+		<section id="nav-bar">
+			<nav class="navbar smart-scroll navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#top">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#About">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Experience">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Contact">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://drive.google.com/file/d/1ecgMSX2wtfncRgh--nwKsRdKS79dBQ6q/view?usp=sharing"  target="_blank">Resumé</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+</section>
+<div id="slider">
+	<div id="headerSlider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    
+    
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/banner1.jpg">
+      <div class="carousel-caption">
+      	<h5>Hello! I am Shreyanshi<span class="typed"></span></h5><span class="fa fa-coffee fa-lg"></span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+    	var typed = new Typed('.typed', {
+  strings: ['&nbsp;Sharma.',', a web developer.', ', a programmer.', ', a coffee-lover.', ', an oper-source enthusiast.'],
+  		typeSpeed: 60,  
+  		backSpeed: 60,
+  		loop: true
+		})
+  
+  </script>
+ </div>
+</div>
+<section id="About">
+	<div class="container">
+		<div class="row-content">
+			<div class="col-12">
+				<h2>About</h2>
+				<div class="about-content">
+					Hey there, reader! I'm Shreyanshi Sharma a first year Computer Science and engineering student at Birla Institute Of Technology,Mesra. There are many personas to me, and some of them co-exist peacefully -
+					.The Fangirl "me" likes watching & discussing many TV Series', such as- Breaking Bad, Game of Thrones, Suits, etc.
+				</div>
+				
+			</div>
+			<div class="col-md-6"></div>		</div>
+	</div>
+</section>
+<section id="Experience">
+	<div class="container">
+		<h1>Experience</h1>
+		<div class="row experience">
+			
+			
+            <div class="col-12 col-md-6 text-center ">
+            	 
+			
+				<img class="img"src="images/gslogo.png">
+			
+				
+					
+					
+			
+				<p>We worked on a chatbot which gives users a new way to interact with google maps. It helps users with their navigation requirements in real-time over text-conversation.</p>
+			</div>
+		
+			
+            <div class="col-12 col-md-6 text-center">
+       
+			
+				<img class="img"src="images/blog.png">
+			
+					
+			
+				
+				<p>The goal was to create an application where you can create simple articles containing title and
+				description, add categories to those articles and be able to edit or delete your own.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="Contact">
+<div class="container">
+	<h1>Contact</h1>
+	<div class="row">
+		<div class="col-12 profile-pic text-center">
+			<div class="img-box">
+				<img src="images/favicon.png" class="image">
+				<ul>
+					<a href="https://www.linkedin.com/in/shreyanshi-sharma-126871192/" target="_blank"><i class="fa fa-linkedin"></i></a>
+					<a href="https://www.linkedin.com/in/shreyanshi-sharma-126871192/" target="_blank"><i class="fa fa-github"></i></a>
+					<a href="mailto: btech25042.19@bitmesra.ac.in" target="_blank"><i class="fa fa-envelope"></i></a>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<section id="footer">
+	<div class="container text-center">
+	<p>Built with <i class="fa fa-heart-o"></i> by Shreyanshi.</p>
+</div>
+</section>
+<script type="text/javascript">
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function(){
+		var currentScrollpos = window.pageYOffset;
+		if(prevScrollpos > currentScrollpos){
+			document.getElementById("nav-bar").style.top = "0";
+		} else {
+			document.getElementById("nav-bar").style.top = "-90px"
+		}
+		prevScrollpos = currentScrollpos;
+	}
+</script>
+ </div>
+</div>
+</body>
+</html>
