@@ -41,7 +41,7 @@
 	color: #555!important;
 	font-weight: 600;
 	font-size: 16px;
-	font-family: SeoulHangang CB;
+	font-family: 'Crimson Text', serif;
 }
 
 .carousel-caption
@@ -55,7 +55,7 @@
 {
 	color: #E5E5E5;
 	font-size: 42px;
-	font-family: SeoulHangang CB; 
+	font-family: 'Crimson Text', serif;
 
 
 }
@@ -65,7 +65,7 @@
 	padding-top: 50px;
 	padding-bottom: 140px;
 	color: #555;
-	font-family: SeoulHangang CB; 
+	font-family: 'Crimson Text', serif;
 
 }
 #about .btn
@@ -92,7 +92,7 @@
 	text-align: center;
 	color: #efefef!important;
 	padding-bottom: 10px;
-	font-family: SeoulHangang CB; 
+	font-family: 'Crimson Text', serif; 
 
 }
 #experience h1::after
@@ -117,14 +117,14 @@
 	padding-top: 10px;
 	padding-bottom: 20px;
 	color: #fff;
-	font-family: SeoulHangang CB; 
+	font-family: 'Crimson Text', serif; 
 	
 }
 h1{
 	text-align: center;
 	color: #555!important;
 	
-	font-family: SeoulHangang CB; 
+	font-family: 'Crimson Text', serif; 
 }
 h1::after
 {
@@ -161,7 +161,7 @@ h1::after
 	background: #000000;
 	color: #6DFFFF;
 	padding: 12px;
-	font-family: SeoulHangang CB; 
+	font-family: 'Crimson Text', serif; 
 
 }
 
