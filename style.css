@@ -77,12 +77,10 @@
 .about-content
 {
 	padding-top: 20px;
+	font-size: 32px;
 	
 }
-#about-content h2
-{
-	font-size: 32px;
-}
+
 #Experience
 {
 	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/experience.jpg);
