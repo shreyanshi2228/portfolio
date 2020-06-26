@@ -76,7 +76,11 @@
 .about-content
 {
 	padding-top: 20px;
-	font-size: 30px;
+	
+}
+#about-content h2
+{
+	font-size: 32px;
 }
 #Experience
 {
